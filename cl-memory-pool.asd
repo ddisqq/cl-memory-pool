@@ -2,7 +2,7 @@
 
 (asdf:defsystem #:cl-memory-pool
   :description "Thread-safe object pooling and memory management using SBCL native threading"
-  :author "CLPIC Contributors"
+  :author "Parkian Company LLC"
   :license "BSD-3-Clause"
   :version "1.0.0"
   :depends-on ()
