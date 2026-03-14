@@ -3,8 +3,10 @@
 
 (in-package :cl-user)
 
-(defpackage :CL_MEMORY_POOL
+(defpackage :cl-memory-pool
   (:use :cl)
-  (:export   #:create-pool   #:acquire-connection   #:release-connection ))
+  (:export #:create-pool
+           #:acquire-connection
+           #:release-connection))
 
-(in-package :CL_MEMORY_POOL)
+(in-package :cl-memory-pool)
