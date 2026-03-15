@@ -6,7 +6,11 @@
 (defpackage #:cl-memory-pool
   (:use #:cl)
   (:export
-   #:with-memory-pool-timing
+   #:identity-list
+   #:flatten
+   #:map-keys
+   #:now-timestamp
+#:with-memory-pool-timing
    #:memory-pool-batch-process
    #:memory-pool-health-check#:cl-memory-pool-error
    #:cl-memory-pool-validation-error#:available-resource
